@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns:text-decoration="http://www.w3.org/1999/xhtml" xmlns:color="http://www.w3.org/1999/xhtml" xmlns: xmlns:
+      xmlns:background-image="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <title>Insert title here</title>
+
+</head>
+<script>
+function confirma(pi){
+if(window.confirm("Vocês está certo?")){
+	location.href= "cliente?id="+ pi+"&acao=esc";
+}
+	}
+</script>
+<body bgcolor=" #2E8B57">
+
+<h1 align="center" >SALVUS</h1>
+<hr> <font color="white"></font>
+<div>
+  <h3> Iniciar  login:</h3>
+
+  <form  action="cliente">
+    </label>
+    <label><h4></h4>Usuário:
+      <br><input type="text" placeholder="Digite seu usuário">
+    </label>
+
+    <label><h4></h4>Email:
+      <br><input type="text" placeholder="Digite seu email">
+    </label>
+
+    <label><h4></h4>Senha:
+      <br><input type="password" placeholder="*********">
+    </label></br>
+
+    <br> <button type="Entrar"  onclick= "alert('BEM VINDO');">
+    ENTRAR
+  </button>
+    <button type="Entrar" ><a target="_blank" onclick="alert('INICIAR CADASTRO');"
+                              href='http://localhost:63342/TesteSS/View/view2.html?_ijt=rhts0lpcj39lhltgh5kjdipiak'
+    >CADASTRAR
+    </a>
+
+    </button>
+  </form>
+</div>
+
+</body>
+</html>
